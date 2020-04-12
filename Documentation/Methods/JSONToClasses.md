@@ -15,7 +15,7 @@ JSONToClasses ($jsonString)
 
 You can use web service /classes/ to test
 
-[JSONToClassesWebService](JSonToClassesWebService.md)
+[JSONToClassesWebService](JSONToClassesWebService.md)
 
 ### Example with sub-object
 
