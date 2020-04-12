@@ -11,12 +11,16 @@ var postChange = function(jsonString) {
             console.log(jsonResponse);
             //document.getElementById("4dcode").innerText = responseText;
             var template = document.getElementById("4dcode");
-
-            console.log(typeof(jsonResponse.values()));
+            var siblingNode = template.nextSibling;
+            while (siblingNode) {
+                template.parentNode.removeChild(siblingNode);  
+                siblingNode = template.nextSibling; 
+            }
 
             jsonResponse.forEach(function(classDef) {
                 console.log(classDef);
                 var classNode=template.cloneNode();
+                classNode.id=classDef.name;
                 classNode.innerText = classDef.code.split("\n").join("\n  ");
                 var title = document.createElement("h2");
                 title.innerText = classDef.name;
