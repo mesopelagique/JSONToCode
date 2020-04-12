@@ -11,6 +11,12 @@ Generate classes files with JSON data parsing
 JSONToClasses ($jsonString)
 ```
 
+### Web Service
+
+You can use web service /classes/ to test
+
+[JSONToClassesWebService](JSonToClassesWebService.md)
+
 ### Example with sub-object
 
 For json string

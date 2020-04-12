@@ -23,6 +23,7 @@
 	"web": {
 		"methods": [
 			"Compiler_Methods",
+			"JSONToClassesWebService",
 			"JSONToCodeWebServer",
 			"JSONToCodeWebService"
 		]
