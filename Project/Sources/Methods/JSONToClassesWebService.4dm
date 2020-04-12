@@ -5,7 +5,7 @@ $name:=$1
 C_TEXT:C284($2;$method)
 $method:=$2
 
-C_TEXT:C284($output)
+C_TEXT:C284($output;$headers)
 
 Case of 
 	: (Position:C15("GET";$method)=1)
@@ -20,8 +20,8 @@ Case of
 		WEB GET HTTP BODY:C814($output)
 		
 		$output:=JSON Stringify:C1217(JSONToClassesCode ($output;True:C214))
-		$vTcookie:="Content-type: application/json"
-		WEB SET HTTP HEADER:C660($vTcookie)
+		$headers:="Content-type: application/json"
+		WEB SET HTTP HEADER:C660($headers)
 		WEB SEND TEXT:C677($output)
 		$0:=True:C214
 		

@@ -30,3 +30,11 @@ C_OBJECT:C1216(ObjectToClassCode ;$0)
 C_TEXT:C284(ObjectToClassCode ;$1)
 C_OBJECT:C1216(ObjectToClassCode ;$2)
 C_COLLECTION:C1488(ObjectToClassCode ;$3)
+
+  //JSONToClassesCode
+C_BOOLEAN:C305(JSONToClassesCode ;$2)
+
+  //JSONToClassesWebService
+C_BOOLEAN:C305(JSONToClassesWebService ;$0)
+C_TEXT:C284(JSONToClassesWebService ;$1)
+C_TEXT:C284(JSONToClassesWebService ;$2)
