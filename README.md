@@ -29,6 +29,8 @@ You could open this component and open the default URL http://localhost:8702
 
 Or start the server yourself from a host database using  [JSONToCodeWebServer](Documentation/Methods/JSONToCodeWebServer.md)
 
+💡 If you have javascript instead of JSON, you can use online service such as [convertonline.io](https://www.convertonline.io/convert/js-to-json)
+
 ### Pasteboard
 
 Just call  [PBJSONToCode](Documentation/Methods/PBJSONToCode.md) and your pasteboard content will be converted
