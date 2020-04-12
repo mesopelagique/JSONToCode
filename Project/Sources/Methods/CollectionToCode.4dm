@@ -6,7 +6,6 @@ $jsonCollection:=$1
 C_LONGINT:C283($i)
 $resultCode:="New collection("
 
-
 $i:=0
 
 For ($i;0;$jsonCollection.length-1;1)
@@ -23,8 +22,5 @@ For ($i;0;$jsonCollection.length-1;1)
 End for 
 
 $resultCode:=$resultCode+")"
-If ($prettify)
-	  //$resultCode:=$resultCode+"\n"
-End if 
 
 $0:=$resultCode

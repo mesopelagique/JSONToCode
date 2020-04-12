@@ -5,6 +5,8 @@ $name:=$1
 C_TEXT:C284($2;$method)
 $method:=$2
 
+C_TEXT:C284($output)
+
 Case of 
 	: (Position:C15("GET";$method)=1)
 		  // Just send the template
@@ -14,12 +16,12 @@ Case of
 		
 	: (Position:C15("POST";$method)=1)
 		  // Convert posted JSON from body
-		$text:=""
-		WEB GET HTTP BODY:C814($text)
+		$output:=""
+		WEB GET HTTP BODY:C814($output)
 		
-		$text:="$value:="+JSONToCode ($text;True:C214)
+		$output:="$value:="+JSONToCode ($output;True:C214)
 		
-		WEB SEND TEXT:C677($text)
+		WEB SEND TEXT:C677($output)
 		$0:=True:C214
 		
 	Else 

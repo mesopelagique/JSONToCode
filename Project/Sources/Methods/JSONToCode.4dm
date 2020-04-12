@@ -4,6 +4,7 @@ C_TEXT:C284($0;$resultCode)  // return the 4d code
 C_VARIANT:C1683($2)
 
 $jsonString:=$1
+C_BOOLEAN:C305($prettify)
 $prettify:=(Count parameters:C259>1)  // *
 
   // XXX trim ? $jsonString

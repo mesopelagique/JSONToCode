@@ -32,6 +32,12 @@ Or start the server yourself from a host database using  [JSONToCodeWebServer](D
 
 Just call  [PBJSONToCode](Documentation/Methods/PBJSONToCode.md) and your pasteboard content will be converted
 
+## 🚧 Convert JSON to class definition
+
+Generate classes files with JSON data parsing
+
+ [JSONToClasses](Documentation/Methods/JSONToClasses.md)
+
 ## Acknowledgment
 
 - [JSON Editor](https://github.com/josdejong/jsoneditor) for web server

@@ -1,4 +1,12 @@
 ﻿{
+	"classes": {
+		"methods": [
+			"JSONToClasses",
+			"JSONToClassesCode",
+			"ObjectToClassCode",
+			"test_JSONToClassCode"
+		]
+	},
 	"test": {
 		"methods": [
 			"test_JSONToCode"

@@ -1,9 +1,10 @@
 //%attributes = {"preemptive":"capable"}
 C_OBJECT:C1216($1;$jsonObj)
 C_TEXT:C284($0;$resultCode)  // return the 4d code
-C_LONGINT:C283($2)
+C_LONGINT:C283($2;$indent;$i)
 $jsonObj:=$1
 
+C_BOOLEAN:C305($prettify)
 If (Count parameters:C259>1)
 	$indent:=$2
 	$prettify:=True:C214
@@ -11,17 +12,6 @@ Else
 	$indent:=0
 	$prettify:=False:C215
 End if 
-
-$test:=New object:C1471(\
-"Array";New collection:C1472(1;10;3);\
-"Boolean";False:C215;\
-"Null";Null:C1517;\
-"Number";123;\
-"Object";New object:C1471(\
-"a";"b";\
-"c";"d");\
-"String";"Hello World")
-
 
 $resultCode:="New object("
 If ($prettify)
