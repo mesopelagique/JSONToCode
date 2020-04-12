@@ -53,15 +53,15 @@ Function fromObject
 	This.name:=$1.name
 	This.age:=$1.age
 	$0:=This
-	```
+```
 
 You can then initialize a `Root` class from `File`, text or object
 	
-	```4d
-	$instance:=cs.Root.fromFile($aJsonFile)
-	$instance:=cs.Root.fromText($aJsonString)
-	$instance:=cs.Root.fromObject($anObject) // or cs.Root.new().fromObject($anObject)
-	```
+```4d
+$instance:=cs.Root.fromFile($aJsonFile)
+$instance:=cs.Root.fromText($aJsonString)
+$instance:=cs.Root.fromObject($anObject) // or cs.Root.new().fromObject($anObject)
+```
 	
 	
 
