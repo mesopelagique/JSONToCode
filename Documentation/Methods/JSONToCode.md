@@ -14,7 +14,7 @@ For JSON String
 ```
 the result will be
 
-````
+```4d
 New object("array";New collection(1;2;3);"bool";True)
 ```
 
