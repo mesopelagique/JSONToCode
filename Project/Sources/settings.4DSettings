@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
+	<com.4d>
+		<web>
+			<standalone_server>
+				<configuration allow_ssl="false" https_port_number="8844" port_number="8702" publish_at_startup="true"/>
+			</standalone_server>
+		</web>
+		<server>
+			<network>
+				<options publication_name="JSONTo4DCode"/>
+			</network>
+		</server>
+		<general execute_host_database_event="true"/>
+	</com.4d>
+</preferences>

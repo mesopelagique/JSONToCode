@@ -1,0 +1,23 @@
+﻿{
+	"test": {
+		"methods": [
+			"test_JSONToCode"
+		]
+	},
+	"utils": {
+		"methods": [
+			"CollectionToCode",
+			"Compiler_JSONToCode",
+			"ObjectToCode",
+			"ValueToCode"
+		]
+	},
+	"web": {
+		"methods": [
+			"Compiler_Methods",
+			"JSONToCodeWebServer",
+			"JSONToCodeWebService"
+		]
+	},
+	"trash": {}
+}
