@@ -8,6 +8,7 @@ Transform JSON to 4DCode.
 ```4d
 $codeString:=JSONToCode($jsonString)
 ```
+[JSONToCode](Documentation/Methods/JSONToCode.md)
 
 ### Utilities
 
