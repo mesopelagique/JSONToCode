@@ -1,5 +1,5 @@
 ﻿# JSONToCode
-[![language][code-shield]][code-url] [![language-top][code-top]][code-url] ![code-size][code-size] [![release][release-shield]][release-url] [![license][license-shield]][license-url]
+[![language][code-shield]][code-url] [![language-top][code-top]][code-url] ![code-size][code-size] [![release][release-shield]][release-url] [![license][license-shield]][license-url] [![discord][discord-shield]][discord-url]
 
 Transform JSON to 4DCode.
 
@@ -56,3 +56,6 @@ Generate classes files with JSON data parsing
 [release-url]: https://github.com/mesopelagique/JSONToCode/releases/latest
 [license-shield]: https://img.shields.io/github/license/mesopelagique/JSONToCode
 [license-url]: LICENSE.md
+[discord-shield]: https://img.shields.io/badge/chat-discord-7289DA?logo=discord&style=flat
+[discord-url]: https://discord.gg/dVTqZHr
+
