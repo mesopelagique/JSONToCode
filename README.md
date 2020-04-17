@@ -46,6 +46,10 @@ Generate classes files with JSON data parsing
 - [JSON Editor](https://github.com/josdejong/jsoneditor) for web server
 - Code syntax highlighting by [highlightjs](https://highlightjs.org/) with [4d addon](https://github.com/highlightjs/highlightjs-4d)
 
+## Alternatives
+
+- "Special Paste" in component full of macros [4DPop-Macros](https://github.com/vdelachaux/4DPop-Macros)
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [code-shield]: https://img.shields.io/static/v1?label=language&message=4d&color=blue
@@ -58,4 +62,3 @@ Generate classes files with JSON data parsing
 [license-url]: LICENSE.md
 [discord-shield]: https://img.shields.io/badge/chat-discord-7289DA?logo=discord&style=flat
 [discord-url]: https://discord.gg/dVTqZHr
-
